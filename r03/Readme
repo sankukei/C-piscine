@@ -1,0 +1,29 @@
+Fonction a utilise pour le rush02 :
+
+
+1- Une fonction "Split" : 
+	Cette fonction nous permet de fractionner le dictionnaire mis a notre disposition pour nous permettre de realiser un tableau de tableau avec les strings recuperer.
+	Pour cette fonction, nous avons decider de delimiter les strings  avec le '\n' = retour a la ligne. 
+
+
+2- Les fonctions "Strlen" et "Malloc" :
+	Cette fonction basique, nous permet de connaitre le nombre de caractere dans une string.
+	Elle est donc necessaire pour l utilisation de la fonction "Malloc".
+	Cette derniere, nous permet d allouer de la memoire pour le tableau. (= Heap)
+
+
+3- Les fonctions "is positive number" et "print error" :
+	Ces fonctions permettent d analyser les arguments donner par l user (=argc).
+	Si ceux la ne respectent pas les conditions (= i {0 et 9}) et plus de 2 arguments (sans compter le ./a.out), alors le programme ecrit "Error".
+
+
+4- Une fonction "Dictionnaire" :
+	Cette fonction nous permet de parcourir le tableau pour trouver le nombre de la ligne adequat.
+	Exemple :
+	Si l user ecrit '42', la fonction parcour toutes les lignes pour trouver la premiere ligne '40', puis l autre ligne '2' pour afficher "forty two".
+	Il faut faire en sorte que cette fonction fonctionne malgre un dictionnaire desordonne.
+
+
+5- Le fichier "Makefile" :
+	Ce fichier nous permet d executer tout le programme sans compiler tous les fichiers un par un. De plus, cela creer un executable.
+

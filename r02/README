@@ -1,0 +1,17 @@
+Fonctions nescessaires pour la resolution du probleme:
+
+1) une fonction qui check si la position d'un nombre est valide apres etre pose (elle sera appele par l'algo de backtracking) || (difficulte 2/10)
+
+2) une fonction qui recupere les aguments passe en parametre et initialise une matrice (tableau de tableau), par exemple si on passe 4 3 2 1 dans la ligne du haut il faudrais un tableau comme ca
+{
+	4 3 2 1
+
+	0 0 0 0 
+	0 0 0 0 
+	0 0 0 0
+	0 0 0 0 
+}
+
+3) l'algo de backtracking qui posera des chiffres "random" et qui appelera la fonction qui heck si la pos est valide, deux possibilite en decoule
+-> La position est valide et donc il continue
+-> sinon il reviens en arriere d'un step et replace un autre chiffre jusqu'a trouve une position valide
